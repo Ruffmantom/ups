@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+#heading, img{
+  height: 16px;
+  width: auto;
+
+}
+.myPackages{
+  
+}
+.package{
+  background-color: blue;
+  border: 1px solid black;
+}
