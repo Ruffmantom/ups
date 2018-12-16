@@ -1,6 +1,6 @@
-body{
-  margin: 0;
-  padding: 0;
+html{
+ margin: 0;
+ padding: 0;
 
 }
 #heading, img{
@@ -8,10 +8,47 @@ body{
   width: auto;
 
 }
+#heading{
+  height: 200px;
+  background: skyblue;
+
+}
 .myPackages{
-  
+margin-top: 0px;
+border: 1px solid blue;
+height:300px;
+display: flex;
+flex-direction: column;
+align-content: space-around;
+padding: 20px;
 }
 .package{
-  background-color: blue;
+  align-content: center;
+  margin: auto;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+  padding-left: 100px;
   border: 1px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+  color: Black;
+}
+.packageNum{
+  margin-top: 2px;
+  margin-bottom: 2px;
+
+}
+.delivered{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+footer{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.iconlink{
+
 }
